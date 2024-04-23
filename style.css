@@ -1,0 +1,86 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-image: url('socialmedia.jpg');
+    background-size: cover;
+    height: 400px;
+    /* Adjust the height of the header */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.border {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 10px;
+}
+
+.border-line {
+    width: 25%;
+    height: 10px;
+    float: left;
+}
+
+.border-line:nth-child(1) {
+    background-color: #F8BC1B;
+}
+
+.border-line:nth-child(2) {
+    background-color: #35A752;
+}
+
+.border-line:nth-child(3) {
+    background-color: #1b56f8;
+}
+
+.border-line:nth-child(4) {
+    background-color: #f8681b;
+}
+
+h1 {
+    color: white;
+    font-size: 3rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+h2 {
+    color: #333;
+    font-size: 1.5rem;
+    margin-top: 20px;
+}
+
+p {
+    color: #333;
+    font-size: 1.3rem;
+    margin-top: 10px;
+}
+
+.heading {
+    color: black;
+    font-size: 3rem;
+    text-shadow: none;
+    text-align: center;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+}
+#slideshow {
+    text-align: center;
+}
+
+#slideshow iframe {
+    display: inline-block;
+    margin-right: 20px;
+    margin-bottom: 40px;
+
+}
